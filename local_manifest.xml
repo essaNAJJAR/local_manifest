@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <manifest> 
-
-<remote name="arrowxx" 
-         fetch="https://github.com/ArrowOS" />
-                                                                                
+ 
  <remote name="kd"
          fetch="https://github.com/kdrag0n" />
                                                                                 
-  <remote name="shashank1439" 
-          fetch="https://github.com/shashank1349" />
-                                                                                
-                                                                                
- <!-- hals --> 
-<remove-project name="platform_hardware_qcom_display" /> 
-<remove-project name="platform_hardware_qcom_audio" /> 
-<remove-project name="platform_hardware_qcom_media" /> 
-<project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="arrowxx" revision="arrow-12.0-caf-sm8150"/> 
-<project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="arrowxx" revision="arrow-12.0-caf-sm8150"/> 
-<project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="arrowxx" revision="arrow-12.0-caf-sm8150" />
-                                                                                
+  <remote name="unsatifsed27" 
+          fetch="https://github.com/unsatifsed27" />
+                                                                                                                                                 
                                                                                 
   <!-- proton clang --> 
 <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kd" revision="master" />
                                                                                 
   <!--kernel tree --> 
-<project name="kernel_xiaomi_sweet" path="kernel/xiaomi/sweet" remote="shashank1349" revision="s12oss" />
-                                                                                
+<project name="kernel_xiaomi_sm6150" path="kernel/xiaomi/sweet" remote="vantoman" revision="12" />
+ 
    <!-- device tree --> 
-<project name="device_xiaomi_sweet" path="device/xiaomi/sweet" remote="shashank1349" revision="s12oss" />
-                                                                                
+<project name="device_xiaomi_sweet" path="device/xiaomi/sweet" remote="unsatifsed27" revision="pixy12" />
+                                             
    <!-- vendor tree --> 
-<project name="vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" remote="shashank1349" revision="s12oss" />
-                                                                                
+<project name="vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" remote="unsatifsed27" revision="rolas" />
+                                          
 </manifest>
