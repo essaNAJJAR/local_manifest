@@ -12,12 +12,12 @@
 <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kd" revision="master" />
                                                                                 
   <!--kernel tree --> 
-<project name="kernel_xiaomi_sm6150" path="kernel/xiaomi/sweet" remote="vantoman" revision="12" />
+<project name="kernel_xiaomi_sm6150" path="kernel/xiaomi/sweet" remote="vantoman" revision="13" />
  
    <!-- device tree --> 
-<project name="device_xiaomi_sweet" path="device/xiaomi/sweet" remote="unsatifsed27" revision="pixy12" />
+<project name="device_xiaomi_sweet" path="device/xiaomi/sweet" remote="unsatifsed27" revision="wip" />
                                              
    <!-- vendor tree --> 
-<project name="vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" remote="unsatifsed27" revision="rolas" />
+<project name="vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" remote="unsatifsed27" revision="spark" />
                                           
 </manifest>
